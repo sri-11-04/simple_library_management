@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'library_management.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME' :'project_library',
-        'HOST':'localhost',
-        'USER':'postgres',
-        'PASSWORD':'srianna@0963',
-        'PORT':'5432'
+        'NAME' :'your_db_name',
+        'HOST':'your host',
+        'USER':'your user name',
+        'PASSWORD':'your password',
+        'PORT':'your port number'
     }
 }
 
